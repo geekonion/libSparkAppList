@@ -24,6 +24,7 @@ TWEAKNAME_LIBRARIES = sparkapplist
 ```
 
 I recommend keeping to the same version of libSparkAppList for now (as I am actively improving it), so I'd point users to my repo http://beta.sparkservers.co.uk to install it.
+
 **Update:** I have submitted a build to BigBoss, so hopefully soon addition of my repo wont be necessary.
 
 You can add it to your control file depends like so:
