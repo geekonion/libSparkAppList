@@ -39,8 +39,8 @@ So for example, for my tweak Notchless my preferences file is stored at '/var/mo
     // Replace "com.spark.notchlessprefs" and "excludedApps" with your strings
     SparkAppListTableViewController* s = [[SparkAppListTableViewController alloc] initWithIdentifier:@"com.spark.notchlessprefs" andKey:@"excludedApps"];
 
-	[self.navigationController pushViewController:s animated:YES];
-	self.navigationItem.hidesBackButton = FALSE;
+    [self.navigationController pushViewController:s animated:YES];
+    self.navigationItem.hidesBackButton = FALSE;
 ```
 
 Add this code into a function and it can be called from your preference bundle, example:
@@ -48,13 +48,13 @@ Add this code into a function and it can be called from your preference bundle, 
 PreferenceBundle plist (Root.plist)
 ```
     <dict>
-	    <key>cell</key>
-	    <string>PSButtonCell</string>
-	    <key>label</key>
-	    <string>Select apps to blacklist...</string>
-	    <key>action</key>
-	    <string>selectExcludeApps</string>
-	</dict>
+        <key>cell</key>
+        <string>PSButtonCell</string>
+        <key>label</key>
+        <string>Select apps to blacklist...</string>
+        <key>action</key>
+        <string>selectExcludeApps</string>
+    </dict>
 ```
 
 PreferenceBundle code (notchlessprefsRootListController.m)
