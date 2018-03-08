@@ -5,7 +5,7 @@ It simply allows developers to retrieve a list of a users installed applications
 
 For users, this library will just be installed as a dependency from another tweak and away you go!
 
-**Please note:** This is in no way supposed to be a replacement of AppList, rpetrich's AppList is a great tool. It was simply a tool a wrote for my own tweaks (to have a bit more control over the code), that I thought some devs could find useful. I'm sure AppList will be updated to support iOS 11 at some point as rpetrich is very active - but this is an option for developers who either cannot wait, or want to try something else! :)
+**Please note:** This is in no way supposed to be a replacement of AppList, rpetrich's AppList is a great tool. It was simply a tool I wrote for my own tweaks (to have a bit more control over the code), that I thought some devs could find useful. I'm sure AppList will be updated to support iOS 11 at some point as rpetrich is very active - but this is an option for developers who either cannot wait, or want to try something else! :)
 
 **At this time only the precompiled binaries and headers are available to the public - full source code will follow soon!**
 
