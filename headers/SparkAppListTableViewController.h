@@ -5,5 +5,9 @@
 @property (nonatomic, retain) NSString* preferencesKey;
 @property (nonatomic, retain) NSMutableArray* preferencesAppList;
 
+@property (nonatomic, assign) BOOL showBundleIdentifierOnTap;
+
 -(id)initWithIdentifier:(NSString*)identifier andKey:(NSString*)key;
+-(void)addCustomExclusion:(NSString*)bundleIdentifier;
+
 @end
